@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Start Style Sctive Element In SidBar  */
+a {padding: 5px 10px;display: block;margin-right:  10px;margin-left:  10px;margin-top: 20px;border: 1px solid transparent;transition: all .5s}
+.active {border:1px solid #e11d48;border-radius: 50px;color: #e11d48}
+a:hover {border:1px solid #e11d48;border-radius: 50px;color: #e11d48}
+
+th {padding-top: 5px !important;padding-bottom: 5px !important}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper table {border-spacing: 2px;border: 2px solid #eee;border-radius: 30px;border-top: 0}
+.ant-table-thead {outline: 1px solid red;border-radius: 20px;overflow: hidden}
+th:first-of-type {border-radius: 50% !important}
+th:last-of-type {border-top-right-radius: 50% !important;border-bottom-right-radius: 50% !important}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-pagination .ant-pagination-item {height: 40px;line-height: 0}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-pagination .ant-pagination-item-active {border: 0;border-radius: 0;border-top: 2px solid red}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-pagination .ant-pagination-item-active:hover {border-top: 2px solid red}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-pagination .ant-pagination-item-active:hover a {color: red}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-pagination .ant-pagination-item-active a {color: red}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper tfoot>tr>td{padding: 10px 10px}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper .ant-table-column-title {font-size: 12px}
+:where(.css-dev-only-do-not-override-10ed4xt).ant-table-wrapper .ant-table-tbody >tr >td {border-bottom: 0}
